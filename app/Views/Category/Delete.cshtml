@@ -1,0 +1,27 @@
+﻿@model Category
+
+<div>
+    <div class="border p-3 mt-4">
+	    <div class="row pb-2">
+			<h2 class="text-danger">Delete  Category</h2>
+			<hr />
+		</div>
+		<div asp-validation-summary="All"></div>
+		<div class="mb-3">
+			<label asp-for="category_name"></label>
+			<input asp-for="category_name" class="form-control" disabled/>
+			<span asp-validation-for="category_name" class="text-danger"></span>
+		</div>
+
+        @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete Category" class="btn btn-danger" style="width:150px" class="btn btn-default" /> |
+            @Html.ActionLink("Back to cateogries", "Index")
+        </div>
+    }
+    </div>
+
+
+</div>

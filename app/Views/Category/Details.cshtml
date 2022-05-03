@@ -1,0 +1,21 @@
+﻿@model Category
+
+<h2>Category details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.category_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model =>  model.category_name)
+        </dd>
+    </dl>
+</div>
+<p>
+    <div class="w-75 btn-group" role="group">
+       @Html.ActionLink("Back to cateogries", "Index")
+    </div>
+</p>

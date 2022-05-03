@@ -1,0 +1,29 @@
+﻿@model Author
+
+<form method="post" asp-action="Create">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Author</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+             <!--bining everything with author model-->
+             <label asp-for="author_name">Name</label>
+             <input asp-for="author_name" />
+             <span asp-validation-for="author_name" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 150px">Create</button>
+        <a asp-controller="Author" asp-action="Index" class="btn btn-secondary" style="width: 150px">
+            Back to list
+        </a>
+    </div>
+</form>
+
+
+@*do validations on client side instead of doing them on server side*@
+@section Scripts {
+    @{
+         <partial name="_ValidationScriptsPartial" />
+    }
+}
