@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZH+hyVKo5LXOwbqebwnccPMlbT4n8Xd5eyDMoGgYOLk=",
+  "Hash": "tGJtaXsXY3+8INAd+CC5PC5gYEAd4LO47qXSodvzva0=",
   "Source": "library",
   "BasePath": "_content/library",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\homepage.css"
+    },
+    {
+      "Identity": "D:\\FACULTATE\\ANUL 3\\SEM 2\\PAW\\LMS\\app\\app\\wwwroot\\css\\root.css",
+      "SourceId": "library",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FACULTATE\\ANUL 3\\SEM 2\\PAW\\LMS\\app\\app\\wwwroot\\",
+      "BasePath": "_content/library",
+      "RelativePath": "css/root.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\root.css"
     },
     {
       "Identity": "D:\\FACULTATE\\ANUL 3\\SEM 2\\PAW\\LMS\\app\\app\\wwwroot\\css\\site.css",

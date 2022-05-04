@@ -11,13 +11,11 @@ namespace library.Controllers
 {
     public class PublisherController : Controller
     {
-        //private readonly ApplicationDbContext _db;
 
         private readonly PublisherService _publisherService;
 
         public PublisherController(PublisherService publisherService)
         {
-            //_db = db;
             _publisherService = publisherService;
         }
 

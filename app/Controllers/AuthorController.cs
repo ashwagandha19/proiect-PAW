@@ -11,13 +11,11 @@ namespace library.Controllers
 {
     public class AuthorController : Controller
     {
-        //private readonly ApplicationDbContext _db;
 
         private readonly AuthorService _authorService;
 
         public AuthorController(AuthorService authorService)
         {
-            //_db = db;
             _authorService = authorService;
         }
 

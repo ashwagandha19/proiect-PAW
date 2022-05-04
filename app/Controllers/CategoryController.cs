@@ -11,13 +11,11 @@ namespace library.Controllers
 {
     public class CategoryController : Controller
     {
-        //private readonly ApplicationDbContext _db;
 
         private readonly CategoryService _categoryService;
 
         public CategoryController(CategoryService categoryService)
         {
-            //_db = db;
             _categoryService = categoryService;
         }
 

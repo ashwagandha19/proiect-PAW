@@ -1,6 +1,7 @@
 using library.Data;
 using library.Models;
 using library.Repository;
+using library.Repository.Interfaces;
 using library.Service;
 using library.Services;
 using Microsoft.EntityFrameworkCore;
@@ -10,20 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 builder.Services.AddScoped<AuthorService>();
-//builder.Services.AddScoped<IBillRepository, BillRepository>();
 builder.Services.AddScoped<BillService>();
-//builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<CategoryService>();
-//builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<BookService>();
-//builder.Services.AddScoped<IMemberRepository, MemberRepository>();
 builder.Services.AddScoped<MemberService>();
-//builder.Services.AddScoped<IPublisherRepository,PublisherRepository>();
 builder.Services.AddScoped <PublisherService>();
-//builder.Services.AddScoped<IUserRepository, UserRepository>();
-//builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
 
 // Add identity
 builder.Services.AddIdentity<AppUser, AppRole>(options =>

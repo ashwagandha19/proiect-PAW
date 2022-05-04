@@ -11,13 +11,11 @@ namespace library.Controllers
 {
     public class BillController : Controller
     {
-        //private readonly ApplicationDbContext _db;
 
         private readonly BillService _billService;
 
         public BillController(BillService billService)
         {
-            //_db = db;
             _billService = billService;
         }
 

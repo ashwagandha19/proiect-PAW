@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Category>
+﻿@model IEnumerable<Publisher>
 @{
     ViewData["Title"] = "Index";
 }
@@ -10,8 +10,8 @@
             <h2 class="text-primary">Category List</h2>
         </div>
         <div class="col-6 text-end">
-            <a asp-controller="Category" asp-action="Create" class="btn btn-success">
-                <i class="bi bi-plus-circle"></i> &nbsp; Create New Category
+            <a asp-controller="Publisher" asp-action="Create" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> &nbsp; Create New Publisher
             </a>
         </div>
         <br />
@@ -23,10 +23,10 @@
     <thead>
        <tr>
            <th>
-               Category Id
+               Publisher Id
            </th>
            <th>
-               Category Name
+               Publisher Name
            </th>
            <th>
                Actions
@@ -37,18 +37,18 @@
         @foreach(var obj in Model)
         {
             <tr>
-                <td width="50%">
-                    @obj.category_id
+                <td>
+                    @obj.publisher_id
                 </td>
-                 <td width="50%">
-                    @obj.category_name
+                 <td>
+                    @obj.publisher_name
                 </td>
                 <td>
                     <div class="w-75 btn-group" role="group">
-                        <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.category_id" class="btn btn-secodnary mx-2">
+                        <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.publisher_id" class="btn btn-secodnary mx-2">
                             <i class="bi bi-pen-fill"></i> Edit
                         </a>
-                        <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.category_id" class="btn btn-secodnary mx-2">
+                        <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.publisher_name" class="btn btn-secodnary mx-2">
                             <i class="bi bi-trash-fill"></i> Delete
                         </a>
                     </div>

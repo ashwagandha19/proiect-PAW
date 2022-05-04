@@ -11,13 +11,11 @@ namespace library.Controllers
 {
     public class MemberController : Controller
     {
-        //private readonly ApplicationDbContext _db;
 
         private readonly MemberService _memberService;
 
         public MemberController(MemberService memberService)
         {
-            //_db = db;
             _memberService = memberService;
         }
 
