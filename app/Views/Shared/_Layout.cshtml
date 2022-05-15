@@ -23,12 +23,13 @@
                 <li class="nav-item">
                   <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
+                <!--
                 <li class="nav-item">
                   <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" asp-area="" asp-controller="Register" asp-action="Index">Register</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                   <a class="nav-link" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
                 </li>
@@ -57,10 +58,12 @@
                   <a class="nav-link" asp-area="" asp-controller="Member" asp-action="Index">Members</a>
                 </li>
               </ul>
+              <partial name="_LoginPartial" />
               <form class="d-flex" data-dashlane-rid="b599136a6ed9f990" data-form-type="">
                 <input class="form-control me-sm-2" type="text" placeholder="Search" data-dashlane-rid="510b4258c7af69ab" data-form-type="">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit" data-dashlane-label="true" data-dashlane-rid="cba0ac87fcd437db" data-                  form-type="">Search</button>
               </form>
+              
             </div>
           </div>
         </nav>

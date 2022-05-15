@@ -361,7 +361,6 @@ D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extens
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
@@ -556,3 +555,9 @@ D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.AspNetCore.
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\MiniGuid.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
