@@ -561,3 +561,6 @@ D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\FACULTATE\ANUL 3\SEM 2\PAW\LMS\app\app\bin\Debug\net6.0\NToastNotify.dll

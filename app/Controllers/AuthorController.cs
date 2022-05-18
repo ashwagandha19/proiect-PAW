@@ -2,6 +2,7 @@
 using library.Data;
 using library.Service;
 using library.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -9,6 +10,7 @@ using System.Net;
 
 namespace library.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AuthorController : Controller
     {
 

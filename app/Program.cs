@@ -6,6 +6,8 @@ using library.Service;
 using library.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using app.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -17,8 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 //    .AddEntityFrameworkStores<ApplicationDbContext>();;
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-
+builder.Services.AddMvc().AddNToastNotifyToastr();
 builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
@@ -77,6 +78,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseNToastNotify();
 
 app.MapRazorPages();
 
